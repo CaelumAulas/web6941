@@ -1,0 +1,30 @@
+button {
+  height: 40px;
+  font-size: 20px;
+  color: #ecf0f1;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+
+  transition: background-color 300ms linear;
+}
+
+
+#enviar {
+  background-color: #2ecc71;
+  height: 80px;
+}
+
+#enviar:hover {
+  background-color: #3498db;
+}
+
+
+#cancelar {
+  background-color: #e74c3c;
+}
+
+
+#cancelar:hover {
+  background-color: #c0392b;
+}
