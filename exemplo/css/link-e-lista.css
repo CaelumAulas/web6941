@@ -1,0 +1,43 @@
+/* forma resumida e lista */
+
+body {
+  margin: 0;
+  padding-top: 120px;
+}
+
+header {
+  background-color: rgba(231, 76, 60, .8); /* rgb(255, 0 , 0) #F00*/
+  color: #000;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+article {
+  background-color: #8e44ad;
+  color: #ecf0f1;
+  width: 500px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-indent: 80px;
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+
+h1 a {
+  color: white;
+}
+
+/* http://flatuicolors.com */
