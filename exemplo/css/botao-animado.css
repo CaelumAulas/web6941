@@ -1,0 +1,21 @@
+.btn {
+  border: none;
+  background-color: rgba(155, 89, 182,1.0);
+  font-size: 22px;
+  height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgba(236, 240, 241,1.0);
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: background-color 200ms linear, transform 200ms linear;
+}
+
+.btn:hover {
+  background-color: rgba(231, 76, 60,1.0);
+}
+
+.btn:active {
+  transform: scale(.9);
+}
