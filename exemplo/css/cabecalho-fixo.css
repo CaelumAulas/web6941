@@ -1,0 +1,42 @@
+header {
+  background-color: rgb(205, 171, 218);
+  background-size: 40px;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+
+h1 {
+  width: 100px;
+  height: 50px;
+  background-color: #f1c40f;
+  text-align: center;
+  line-height: 50px;
+}
+
+article {
+  padding-top: 130px;
+  position: relative;
+  z-index: -2;
+}
+
+.btn {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2ecc71;
+  border-radius: 20px;
+}
+
+.btn-right {
+ position: absolute;
+ right: 10px;
+}
+
+.btn a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
