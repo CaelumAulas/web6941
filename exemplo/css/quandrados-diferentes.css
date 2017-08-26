@@ -1,0 +1,42 @@
+li {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+#primeiro {
+  background-color: black;
+  float: right;
+}
+
+#segundo {
+  background-color: blue;
+}
+
+#ultimo {
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*margin: top right bottom left;*/
+  margin: 0 auto 0 auto;
+
+  /*margin: top/bottom left/right;*/
+  margin: 0 auto;
+
+  /*margin: top right/left bottom;*/
+  margin: 10px auto 0;
+
+  /*margin: top/right/bottom/left;*/
+  margin: auto;
+}
+
+figure {
+  font-size: 100px;
+  background-color: yellow;
+}
+
+img {
+  vertical-align: top;
+  width: 20px;
+}
